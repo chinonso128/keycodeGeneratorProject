@@ -20,6 +20,9 @@ keycodeD.addEventListener('click', (e) =>{
     document.body.appendChild(textArea)
     textArea.select();
     document.execCommand('copy');
-    Document.body.removeChild(textArea);
+    document.body.removeChild(textArea);
     keycodeD.querySelector('p').innerText = 'copied';
+    setTimeout(()=>{
+        keycodeD.querySelector('p').innerText = 'click to copy'
+    }, 2000)
 })
