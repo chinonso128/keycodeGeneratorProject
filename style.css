@@ -8,6 +8,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section{
@@ -17,6 +20,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 22rem;
 }
 
 .arrow img{
